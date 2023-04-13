@@ -1,0 +1,59 @@
+* {
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+    font-family: system-ui, -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
+}
+
+body {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+    background-color: #000;
+}
+
+.card {
+    position: absolute;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    padding-left: 70px;
+
+    .box_1 {
+        background-color: red;
+        width: 250px;
+        height: 250px;
+        border-radius: 50%;
+        position: relative;
+    }
+
+    .box_2 {
+        background-color: orange;
+        opacity: 0.85;
+        width: 250px;
+        height: 250px;
+        border-radius: 50%;
+        position: relative;
+        right: 65px;
+    }
+
+}
+
+.box {
+   position: relative;
+   top: 170px;
+   font-size: 20px;
+}
+.container{
+    position: absolute;
+    width: 700px;
+    height: 450px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    box-shadow: 0px 0px 30px #fff;
+    border-radius: 15px;
+    padding-bottom: 50px;
+    background-color: white;
+}
